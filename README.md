@@ -57,7 +57,18 @@
 
 | Command | Description |
 | ------- | ----------- |
+| `git ls-files` | View tracked files |
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+## Tags
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag` | View list of tags |
+| `git tag -a [tag name] -m "[tag message]"` | Create annotated tag |
+| `git show [tag name]` | View tag data |
+| `git push origin [tagname]` | Push tag to remote repository |
+| `git tag -d [tag name]` | Delete tag on local repo |
