@@ -1,13 +1,22 @@
 # Git Commands
 
-## Getting & Creating Projects
+## Table of Contents
+
+1. [Getting & Creating Projects](#project)
+2. [Basic Snapshotting](#basic_commands)
+3. [Branching & Merging](#branches)
+4. [Sharing & Updating Projects](#sharing_updating)
+5. [Inspection & Comparison](#inspection)
+6. [Tags](#tags)
+
+### Getting & Creating Projects <a name="project"></a>
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-## Basic Snapshotting
+### Basic Snapshotting <a name="basic_commands"></a>
 
 | Command | Description |
 | ------- | ----------- |
@@ -20,7 +29,7 @@
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 | `git rm --cached [file-name.txt]` | Remove file (or folder) from index but don't delete |
 
-## Branching & Merging
+### Branching & Merging <a name="branches"></a>
 
 | Command | Description |
 | ------- | ----------- |
@@ -40,7 +49,7 @@
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-## Sharing & Updating Projects
+### Sharing & Updating Projects <a name="sharing_updating"></a>
 
 | Command | Description |
 | ------- | ----------- |
@@ -53,7 +62,7 @@
 | `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin https://github.com/[[username]/[repository-name].git` | Set a repository's origin branch to HTTPS |
 
-## Inspection & Comparison
+### Inspection & Comparison <a name="inspection"></a>
 
 | Command | Description |
 | ------- | ----------- |
@@ -63,7 +72,7 @@
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
-## Tags
+### Tags <a name="tags"></a>
 
 | Command | Description |
 | ------- | ----------- |
