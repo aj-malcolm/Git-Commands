@@ -70,3 +70,17 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+push an existing repository from the command line
+git remote add origin https://github.com/aj-malcolm/Git-Commands.git
+git push -u origin master
+
+
+create a new repository on the command line
+echo "# Git-Commands" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/aj-malcolm/Git-Commands.git
+git push -u origin master
+
