@@ -17,7 +17,7 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 ### Basic Snapshotting
 
@@ -59,8 +59,8 @@ _A list of my commonly used Git commands_
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git remote set-url origin https://github.com/[[username]/[repository-name].git` | Set a repository's origin branch to HTTPS |
 
 ### Inspection & Comparison
 
@@ -70,17 +70,3 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
-
-push an existing repository from the command line
-git remote add origin https://github.com/aj-malcolm/Git-Commands.git
-git push -u origin master
-
-
-create a new repository on the command line
-echo "# Git-Commands" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/aj-malcolm/Git-Commands.git
-git push -u origin master
-
