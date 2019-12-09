@@ -1,35 +1,26 @@
-Git Commands
-============
+# Git Commands
 
-## Translated Versions
-- [Versão em português](READMEpt.md)
-
-___
-
-_A list of my commonly used Git commands_
-
-*If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
-
---
-
-### Getting & Creating Projects
+## Getting & Creating Projects
 
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
-### Basic Snapshotting
+## Basic Snapshotting
 
 | Command | Description |
 | ------- | ----------- |
-| `git status` | Check status |
+| `git status` | Check status of working tree against HEAD |
+| `git fetch` | Check for updates on remote |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
+| `git commit -m "[commit message]"` | Commit changes with message|
+| `git commit -a -m "[commit message]"` | Add all new/changed files and commit changes with message|
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git rm --cached [file-name.txt]` | Remove file (or folder) from index but don't delete |
 
-### Branching & Merging
+## Branching & Merging
 
 | Command | Description |
 | ------- | ----------- |
@@ -49,7 +40,7 @@ _A list of my commonly used Git commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-### Sharing & Updating Projects
+## Sharing & Updating Projects
 
 | Command | Description |
 | ------- | ----------- |
@@ -62,7 +53,7 @@ _A list of my commonly used Git commands_
 | `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin https://github.com/[[username]/[repository-name].git` | Set a repository's origin branch to HTTPS |
 
-### Inspection & Comparison
+## Inspection & Comparison
 
 | Command | Description |
 | ------- | ----------- |
