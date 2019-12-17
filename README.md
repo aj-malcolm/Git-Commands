@@ -49,10 +49,11 @@
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
-### Sharing & Updating Projects <a name="sharing_updating"></a>
+### Working with Remote Repos <a name="sharing_updating"></a>
 
 | Command | Description |
 | ------- | ----------- |
+| `git remote -v` | View all remote branches (verbose mode) |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
