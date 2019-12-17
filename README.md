@@ -5,7 +5,7 @@
 1. [Getting & Creating Projects](#project)
 2. [Basic Snapshotting](#basic_commands)
 3. [Branching & Merging](#branches)
-4. [Sharing & Updating Projects](#sharing_updating)
+4. [Working with Remote Repos](#sharing_updating)
 5. [Inspection & Comparison](#inspection)
 6. [Tags](#tags)
 
