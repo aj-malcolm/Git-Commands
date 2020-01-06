@@ -8,6 +8,7 @@
 4. [Working with Remote Repos](#sharing_updating)
 5. [Inspection & Comparison](#inspection)
 6. [Tags](#tags)
+7. [Useful Links](#links)
 
 ### Getting & Creating Projects <a name="project"></a>
 
@@ -84,3 +85,6 @@
 | `git show [tag name]` | View tag data |
 | `git push origin [tagname]` | Push tag to remote repository |
 | `git tag -d [tag name]` | Delete tag on local repo |
+
+### Useful links <a name="links"></a>
+https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
