@@ -87,4 +87,6 @@
 | `git tag -d [tag name]` | Delete tag on local repo |
 
 ### Useful links <a name="links"></a>
+https://www.w3docs.com/snippets/git/how-to-rename-git-local-and-remote-branches.html
+
 https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
